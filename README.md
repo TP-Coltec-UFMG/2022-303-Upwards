@@ -1,10 +1,7 @@
 # 2022-303-NomeADefinir
 
-<p align="center"> Equipe: Enzo Bigodeiro Bernardes, Jhulya Cristina Silva Gonçalves, Luan Vitor Carvalho Valadares, Lucas Gomes Rodrigues </p>
-
-# 2022-303-NomeADefinir
-
-<p align="center"> Equipe: Enzo Bigodeiro Bernardes, Luan Vitor Carvalho Valadares, Lucas Gomes Rodrigues, Jhulyya Cristina Silva Gonçalves </p>
+<p align="center"> Equipe: Enzo Bigodeiro Bernardes, Jhulyya Cristina Silva Gonçalves</p>
+<p align="center"> Luan Vitor Carvalho Valadares, Lucas Gomes Rodrigues</p>
 
 # Menu Principal
 
