@@ -31,11 +31,11 @@ Na Tela Inical do Menu Principal temos 4 botões clicáveis
 <p align="center"><img src="https://github.com/TP-Coltec-UFMG/2022-303-NomeADefinir/blob/main/Imagens/menu3.png?raw=true"></p>
 
 # Acessibilidade
-Um dos pontos mais importante do projeto é que seja um jogo acessível e divertido para todos. Nossa jogo contará com opções para que pessoas com quase qualquer tipo de necessidade especial consiga jogar e se divertir, tais opções são:
+Um dos pontos mais importante do projeto é que seja um jogo acessível e divertido para todos. Nosso jogo contará com opções para que pessoas com quase qualquer tipo de necessidade especial consiga jogar e se divertir. Essas opções serão:
 
 ## Acessiblidade para jogadores com baixa visão
 - Alto contraste
-	- A opção de alto contraste ajudará essas pessoas deixando os elementos principais e essenciais do jogo mais visíveis e perceptíveis. O jogo possuirá um plano de fundo marrom que representa uma Árvore, e tanto os personagens jogáveis quanto os inimigos e obstáculos possuirão cores vivas e distantas. 
+	- A opção de alto contraste ajudará essas pessoas deixando os elementos principais e essenciais do jogo mais visíveis e perceptíveis. O jogo possuirá um plano de fundo marrom que representa uma árvore, e tanto os personagens jogáveis quanto os inimigos e obstáculos possuirão cores vivas e distantas. 
 	
 - Tamanho de fonte ajustável
   - Cada jogador poderá escolher o tamanho de fonte mais adequado para si, para que não perca nenhuma informação importante ou parte da história por não conseguir ler.
