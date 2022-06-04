@@ -1,11 +1,11 @@
 # 2022-303-NomeADefinir
 
-<p align="center"> Equipe: Enzo Bigodeiro Bernardes, Jhulyya Cristina Silva Gonçalves</p>
-<p align="center"> Luan Vitor Carvalho Valadares e Lucas Gomes Rodrigues</p>
+## Equipe:
+<p align="center">Enzo Bigodeiro Bernardes, Jhulyya Cristina Silva Gonçalves, Luan Vitor Carvalho Valadares e Lucas Gomes Rodrigues</p>
 
 # Menu Principal
 
-## Tela Inicial:
+
 Na Tela Inical do Menu Principal temos 4 botões clicáveis
 - Jogar (Representado por um icone de play) -> Inicia o jogo
 - Opções (Representado por um icone de engrenagem) -> Abre o Menu de Opções (Próximo tópico)
@@ -14,7 +14,7 @@ Na Tela Inical do Menu Principal temos 4 botões clicáveis
 
 <p align="center"><img src="https://github.com/TP-Coltec-UFMG/2022-303-NomeADefinir/blob/main/Imagens/menu1.png?raw=true"</p>
 
-## Menu de Configurações:
+## Menu de Configurações
 - No Menu de Configurações temos as configurações dos Gráficos, dos Sons, da jogabilidade e da acessiblidade.
 - Alternando entre as opções, usando o teclado ou o mouse, podemos alterar as opções do submenu lateral.
 - Esse menu também será acessivel durante o jogo, através de um menu de pause.
@@ -35,7 +35,7 @@ Na Tela Inical do Menu Principal temos 4 botões clicáveis
 # Acessibilidade
 Um dos pontos mais importante do projeto é que seja um jogo acessível e divertido para todos. Nossa jogo contará com opções para que pessoas com quase qualquer tipo de necessidade especial consiga jogar e se divertir, tais opções são:
 
-## Acessiblidade para jogadores com baixa visão:
+## Acessiblidade para jogadores com baixa visão
 - Alto contraste
 	- A opção de alto contraste ajudará essas pessoas deixando os elementos principais e essenciais do jogo mais visíveis e perceptíveis. O jogo se passará num fundo marrom que representa a Árvore e, tanto os personagens jogaveis quanto os inimigos e obstaculos possuirão cores vivas e distantas. 
 	
@@ -49,7 +49,7 @@ Um dos pontos mais importante do projeto é que seja um jogo acessível e divert
 - Mudança na paleta de cor
 	- Para que todos consigam distinguir as cores do jogo, teremos opções para cada tipo de daltonismo, que alterará a paleta de cor de cada cenário de acordo com a necessidade. Usaremos como base [este site](https://www.color-blindness.com/coblis-color-blindness-simulator/) para termos certeza de que cada paleta esta de acordo com as necessidades.
   
-## Acessibilidade para jogadores com problemas motores:
+## Acessibilidade para jogadores com problemas motores
 - Jogabilidade simples
   - O nosso jogo contará com controles extremamente simples para que todos consigam jogar sem serem prejudicados por qualquer outro motivo. Existirá apenas uma possibilidade de input por parte do jogador: pular. Dessa forma apenas um único botão será usado e não exigirá grande coordenação motora.
 - Diversão
