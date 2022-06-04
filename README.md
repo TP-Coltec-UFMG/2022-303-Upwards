@@ -54,8 +54,8 @@ Um dos pontos mais importante do projeto é que seja um jogo acessível e divert
   - Apesar de ter controles simples, o jogo será desafiador e divertido, exigindo rápida tomada de decisões. O jogo contará com um corônometro para incentivar a competividade e com alguns elementos aleatórios para diversificar a gameplay.
 
 ## Acessibilidade para deficientes auditivos
-  - Descrição do áudio
-   - Para que pessoa com dificuldades de escutar possam estar a par de tudo que está acontecendo tanto quanto as outras, haverá uma opção de descrição de áudio, onde sons do ambiente relevantes seram descritos em texto.
+- Descrição do áudio
+  - Para que pessoa com dificuldades de escutar possam estar a par de tudo que está acontecendo tanto quanto as outras, haverá uma opção de descrição de áudio, onde sons do ambiente relevantes seram descritos em texto.
 # Notas
 - Por mais que todas as opções de acessibilidade estão no menu, a maioria ainda não foi implementada pois não temos um protótipo do jogo pronto ainda.
 - Apesar de termos uma ideia sólida do que o jogo será, tudo ainda está sujeito à mudanças, logo tudo que está aqui pode (e provavelmente vai) mudar.
