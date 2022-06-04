@@ -2,8 +2,40 @@
 
 <p align="center"> Equipe: Enzo Bigodeiro Bernardes, Jhulya Cristina Silva Gonçalves, Luan Vitor Carvalho Valadares, Lucas Gomes Rodrigues </p>
 
-# Acessibilidade
+# 2022-303-NomeADefinir
 
+<p align="center"> Equipe: Enzo Bigodeiro Bernardes, Luan Vitor Carvalho Valadares, Lucas Gomes Rodrigues, Jhulyya Cristina Silva Gonçalves </p>
+
+# Menu Principal
+
+## Tela Inicial:
+Na Tela Inical do Menu Principal temos 4 botões clicáveis
+- Jogar (Representado por um icone de play) -> Inicia o jogo
+- Opções (Representado por um icone de engrenagem) -> Abre o Menu de Opções (Próximo tópico)
+- Sair (Representado por um icone de porta) -> Fecha o jogo
+- Idioma (Representado pela bandeira no canto da tela) -> Altera o idioma do jogo (Não implementado)
+
+<p align="center"><img src="https://github.com/TP-Coltec-UFMG/2022-303-NomeADefinir/blob/main/Imagens/menu1.png?raw=true"</p>
+
+## Menu de Configurações:
+- No Menu de Configurações temos as configurações dos Gráficos, dos Sons, da jogabilidade e da acessiblidade.
+- Alternando entre as opções, usando o teclado ou o mouse, podemos alterar as opções do submenu lateral.
+- Esse menu também será acessivel durante o jogo, através de um menu de pause.
+	
+<p align="center"><img src="https://github.com/TP-Coltec-UFMG/2022-303-NomeADefinir/blob/main/Imagens/menu2.png?raw=true"></p>
+
+### Gráficos (Não implementado)
+- Aqui será possivel alterar a resolução e outras opções relacionadas aos gráficos do jogo.
+
+### Sons (Não implementado)
+- Aqui será possivel alterar o volume da música e dos efeitos sonoros do jogo.
+
+### Acessibilidade
+- Aqui será possivel ativar e configurar as opções de acessibilidade explicadas no próximo tópico:
+
+<p align="center"><img src="https://github.com/TP-Coltec-UFMG/2022-303-NomeADefinir/blob/main/Imagens/menu3.png?raw=true"></p>
+
+# Acessibilidade
 Um dos pontos mais importante do projeto é que seja um jogo acessível e divertido para todos. Nossa jogo contará com opções para que pessoas com quase qualquer tipo de necessidade especial consiga jogar e se divertir, tais opções são:
 
 ## Acessiblidade para jogadores com baixa visão:
@@ -17,7 +49,6 @@ Um dos pontos mais importante do projeto é que seja um jogo acessível e divert
   - O áudio no nosso jogo não será essencial para a gameplay, porém será de grande ajuda caso alguem precise depender dele. O jogo terá um áudio stereo que corresponderá com a localização de elementos chaves no jogo como inimigos e "power-ups". Além disso teremos o cuidado de deixar a frequência dos diferentes áudios no jogo bastante separadas e distintas. Dessa forma, mesmo que haja muitos elementos na tela, o jogador ainda conseguirá distinguir cada um deles. 
   
 ## Acessibilidade para pessoas com daltonismo (de todos os tipos)
-
 - Mudança na paleta de cor
 	- Para que todos consigam distinguir as cores do jogo, teremos opções para cada tipo de daltonismo, que alterará a paleta de cor de cada cenário de acordo com a necessidade. Usaremos como base [este site](https://www.color-blindness.com/coblis-color-blindness-simulator/) para termos certeza de que cada paleta esta de acordo com as necessidades.
   
