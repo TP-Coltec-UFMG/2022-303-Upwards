@@ -4,8 +4,6 @@
 <p>Enzo Bigodeiro Bernardes, Jhulyya Cristina Silva Gonçalves, Luan Vitor Carvalho Valadares e Lucas Gomes Rodrigues</p>
 
 # Menu Principal
-
-
 Na Tela Inical do Menu Principal temos 4 botões clicáveis
 - Jogar (Representado por um icone de play) -> Inicia o jogo
 - Opções (Representado por um icone de engrenagem) -> Abre o Menu de Opções (Próximo tópico)
