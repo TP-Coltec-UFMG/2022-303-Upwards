@@ -27,7 +27,7 @@ Na Tela Inical do Menu Principal temos 4 botões clicáveis
 ### Sons (Não implementado)
 - Aqui será possivel alterar o volume da música e dos efeitos sonoros do jogo.
 
-### Acessibilidade
+### Acessibilidade (Parcialmente implementado)
 - Aqui será possivel ativar e configurar as opções de acessibilidade explicadas no próximo tópico:
 
 <p align="center"><img src="https://github.com/TP-Coltec-UFMG/2022-303-NomeADefinir/blob/main/Imagens/menu3.png?raw=true"></p>
