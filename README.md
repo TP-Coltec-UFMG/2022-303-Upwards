@@ -6,7 +6,7 @@
 # O jogo
 ### Andando de um lado para o outro e pulando ao comando do jogador, nossos protagonistas deve alcançar o topo de Yggdrasil uma árvora lendária da mitologia nórdica enquanto desvia de obstáculos e lida com inimigos. Com controle simples e personagens carismáticos PLACEHOLDER_NOME te levará numa aventura de ALTO nível.
 
-## Plataformer
+## Platformer
 Da mesma forma que o mario nunca consegue voltar para onde veio, o seu caminho é apenas um e sem volta O TOPO. Até o topo haverá inúmeros desafios que testaram sua inteligencia, raciocinio rápido e tempo de reação para ter certeza que voce dign@ de alcançar o paraíso.
 
 ## Protagonistas
@@ -20,7 +20,7 @@ Para expressar sua personalidade e forma preferida de lidar com problemas, o jog
 <p align="center"> *Provavelmente alguns personagens não estarão na versão final </p>
 
 # Protótipo
-### Como o jog ainda está nos primeiros estágios de crriação, ainda não se tem muita coisa certa nem uma arte definitiva. Temos apenas o conceito que é: o personagem vai de um lado para o outro automaticamente e o jogador pode escolher quando pular como mostrado abaixo:
+### Como o jogo ainda está nos primeiros estágios de crriação, ainda não se tem muita coisa certa nem uma arte definitiva. Temos apenas o conceito que é: o personagem vai de um lado para o outro automaticamente e o jogador pode escolher quando pular como mostrado abaixo:
 
  # Menu Principal
 Na Tela Inical do Menu Principal temos 4 botões clicáveis
