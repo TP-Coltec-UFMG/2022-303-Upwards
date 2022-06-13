@@ -19,7 +19,7 @@ Para expressar sua personalidade e forma preferida de lidar com problemas, o jog
 
 <p align="center"> *Provavelmente alguns personagens não estarão na versão final </p>
 
-#Protótipo
+# Protótipo
 ### Como o jog ainda está nos primeiros estágios de crriação, ainda não se tem muita coisa certa nem uma arte definitiva. Temos apenas o conceito que é: o personagem vai de um lado para o outro automaticamente e o jogador pode escolher quando pular como mostrado abaixo:
 
  # Menu Principal
