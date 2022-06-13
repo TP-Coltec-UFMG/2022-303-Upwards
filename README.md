@@ -12,6 +12,7 @@ Da mesma forma que o mario nunca consegue voltar para onde veio, o seu caminho �
 ## Protagonistas
 Para expressar sua personalidade e forma preferida de lidar com problemas, o jogo terá personagens com habilidades únicas que lhe abrirão novas portas mas, entretanto, fecharão outras.
 - Esquilo Escudeiro* com sua HABILIDADE_PLACEHOLDER
+- Macaco Monge* com sua HABILIDADE_PLACEHOLDER
 - Arara Arqueira* com sua HABILIDADE_PLACEHOLDER
 - Pinguim Espadachim* com sua HABILIDADE_PLACEHOLDER
 - Urso Pardo o Bardo* com sua HABILIDADE_PLACEHOLDER
