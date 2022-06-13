@@ -3,7 +3,25 @@
 ### Equipe:
 <p>Enzo Bigodeiro Bernardes, Jhulya Cristina Silva Gonçalves, Luan Vitor Carvalho Valadares e Lucas Gomes Rodrigues</p>
 
-# Menu Principal
+# O jogo
+### Andando de um lado para o outro e pulando ao comando do jogador, nossos protagonistas deve alcançar o topo de Yggdrasil uma árvora lendária da mitologia nórdica enquanto desvia de obstáculos e lida com inimigos. Com controle simples e personagens carismáticos PLACEHOLDER_NOME te levará numa aventura de ALTO nível.
+
+## Plataformer
+Da mesma forma que o mario nunca consegue voltar para onde veio, o seu caminho é apenas um e sem volta O TOPO. Até o topo haverá inúmeros desafios que testaram sua inteligencia, raciocinio rápido e tempo de reação para ter certeza que voce dign@ de alcançar o paraíso.
+
+## Protagonistas
+Para expressar sua personalidade e forma preferida de lidar com problemas, o jogo terá personagens com habilidades únicas que lhe abrirão novas portas mas, entretanto, fecharão outras.
+- Esquilo Escudeiro* com sua HABILIDADE_PLACEHOLDER
+- Arara Arqueira* com sua HABILIDADE_PLACEHOLDER
+- Pinguim Espadachim* com sua HABILIDADE_PLACEHOLDER
+- Urso Pardo o Bardo* com sua HABILIDADE_PLACEHOLDER
+
+<p align="center"> *Provavelmente alguns personagens não estarão na versão final </p>
+
+#Protótipo
+### Como o jog ainda está nos primeiros estágios de crriação, ainda não se tem muita coisa certa nem uma arte definitiva. Temos apenas o conceito que é: o personagem vai de um lado para o outro automaticamente e o jogador pode escolher quando pular como mostrado abaixo:
+
+<!-- # Menu Principal
 Na Tela Inical do Menu Principal temos 4 botões clicáveis
 - Jogar (Representado por um ícone de play) -> Inicia o jogo
 - Opções (Representado por um ícone de engrenagem) -> Abre o Menu de Opções (Próximo tópico)
@@ -28,7 +46,7 @@ Na Tela Inical do Menu Principal temos 4 botões clicáveis
 ### Acessibilidade (Parcialmente implementado)
 - Aqui será possivel ativar e configurar as opções de acessibilidade explicadas no próximo tópico:
 
-<p align="center"><img src="https://github.com/TP-Coltec-UFMG/2022-303-NomeADefinir/blob/main/Imagens/menu3.png?raw=true"></p>
+<p align="center"><img src="https://github.com/TP-Coltec-UFMG/2022-303-NomeADefinir/blob/main/Imagens/menu3.png?raw=true"></p> -->
 
 # Acessibilidade
 Um dos pontos mais importante do projeto é que seja um jogo acessível e divertido para todos. Nosso jogo contará com opções para que pessoas com quase qualquer tipo de necessidade especial consiga jogar e se divertir. Essas opções serão:
