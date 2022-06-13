@@ -22,7 +22,7 @@ Para expressar sua personalidade e forma preferida de lidar com problemas, o jog
 #Protótipo
 ### Como o jog ainda está nos primeiros estágios de crriação, ainda não se tem muita coisa certa nem uma arte definitiva. Temos apenas o conceito que é: o personagem vai de um lado para o outro automaticamente e o jogador pode escolher quando pular como mostrado abaixo:
 
-<!-- # Menu Principal
+ # Menu Principal
 Na Tela Inical do Menu Principal temos 4 botões clicáveis
 - Jogar (Representado por um ícone de play) -> Inicia o jogo
 - Opções (Representado por um ícone de engrenagem) -> Abre o Menu de Opções (Próximo tópico)
@@ -47,7 +47,7 @@ Na Tela Inical do Menu Principal temos 4 botões clicáveis
 ### Acessibilidade (Parcialmente implementado)
 - Aqui será possivel ativar e configurar as opções de acessibilidade explicadas no próximo tópico:
 
-<p align="center"><img src="https://github.com/TP-Coltec-UFMG/2022-303-NomeADefinir/blob/main/Imagens/menu3.png?raw=true"></p> -->
+<p align="center"><img src="https://github.com/TP-Coltec-UFMG/2022-303-NomeADefinir/blob/main/Imagens/menu3.png?raw=true"></p>
 
 # Acessibilidade
 Um dos pontos mais importante do projeto é que seja um jogo acessível e divertido para todos. Nosso jogo contará com opções para que pessoas com quase qualquer tipo de necessidade especial consiga jogar e se divertir. Essas opções serão:
