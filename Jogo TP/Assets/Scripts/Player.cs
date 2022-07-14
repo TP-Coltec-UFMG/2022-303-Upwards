@@ -1,58 +1,89 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
 public class Player : MonoBehaviour
 {
     public Rigidbody2D player_rb;
     public float speed;
     private float direction;
+    public float jump_velocity;
+    private bool jump_request;
     public BoxCollider2D player_col;
-    [SerializeField] private LayerMask Ground;
-    public float jump;
-    private bool sliding;
+    [SerializeField] private LayerMask platforms;
+    private bool IsGrounded()
+    {
+        return Physics2D.BoxCast(player_col.bounds.center, player_col.bounds.size, 0f, Vector2.down, 0.05f,platforms);
+    }
+    private bool IsSliding()
+    {
+        if((Physics2D.BoxCast(player_col.bounds.center, player_col.bounds.size, 0f, Vector2.left, 0.05f, platforms)) || (Physics2D.BoxCast(player_col.bounds.center, player_col.bounds.size, 0f, Vector2.right, 0.05f, platforms)))
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
     private void Start()
     {
         direction = Random.Range(0, 2) == 0 ? -1 : 1;
-        sliding = false;
     }
-    void Update()
+    private void Update()
+    {
+        if(Input.GetKeyDown("space"))
+        {
+            jump_request = true;
+            StartCoroutine(QueueJump());
+        }
+        if((IsGrounded()) && (player_rb.velocity.y == 0) && (player_rb.velocity.x == 0))
+        {
+            direction *= -1;
+        }
+    }
+    private void FixedUpdate()
     {
         player_rb.velocity = new Vector2(speed * direction, player_rb.velocity.y);
-        if(Input.GetKey("space") && IsGrounded())
+        if((jump_request) && ((IsGrounded()) || (IsSliding())))
         {
-            player_rb.velocity = new Vector2(player_rb.velocity.x, jump);
-        }
-        if(sliding)
-        {
-            if(IsGrounded())
+            if(IsSliding())
             {
                 direction *= -1;
-                sliding = false;
             }
-            if(Input.GetKey("space"))
+            player_rb.velocity = new Vector2(player_rb.velocity.x, jump_velocity);
+            jump_request = false;
+        }
+        if(IsSliding())
+        {
+            if(player_rb.velocity.y > 0)
             {
-                direction *= -1;
-                player_rb.velocity = new Vector2(player_rb.velocity.x, jump);
-                sliding = false;
+                player_rb.gravityScale = 2.5f;
+            }
+            else if(player_rb.velocity.y <= 0)
+            {
+                player_rb.gravityScale = 0.5f;
             }
         }
-    }
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if(collision.gameObject.tag == "Wall")
+        else
         {
-            if(IsGrounded())
+            if(player_rb.velocity.y < 0)
             {
-                direction *= -1;
+                player_rb.gravityScale = 2f;
+            }
+            else if((player_rb.velocity.y > 0) && (!Input.GetKey("space")))
+            {
+                player_rb.gravityScale = 2.5f;
             }
             else
             {
-                sliding = true;
+                player_rb.gravityScale = 1f;
             }
         }
     }
-    private bool IsGrounded()
+    IEnumerator QueueJump()
     {
-        return Physics2D.BoxCast(player_col.bounds.center, player_col.bounds.size, 0f, Vector2.down, .1f, Ground);
+        yield return new WaitForSeconds(.25f);
+        jump_request = false;
     }
 }

@@ -3386,7 +3386,7 @@ GameObject:
   - component: {fileID: 792859149}
   - component: {fileID: 792859148}
   - component: {fileID: 792859152}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3516,16 +3516,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 792859146}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72ee616dd7748c048a0569118bffde9c, type: 3}
+  m_Script: {fileID: 11500000, guid: a85fbd9e62f5334429cbc9e95f335342, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   player_rb: {fileID: 792859148}
   speed: 7
+  jump_velocity: 7
   player_col: {fileID: 792859149}
-  Ground:
+  platforms:
     serializedVersion: 2
-    m_Bits: 64
-  jump: 7
+    m_Bits: 1
 --- !u!1 &825994301
 GameObject:
   m_ObjectHideFlags: 0
@@ -5139,7 +5139,7 @@ GameObject:
   - component: {fileID: 1110080905}
   - component: {fileID: 1110080904}
   - component: {fileID: 1110080906}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
