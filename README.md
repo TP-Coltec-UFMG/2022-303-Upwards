@@ -4,7 +4,7 @@
 <p>Enzo Bigodeiro Bernardes, Jhulya Cristina Silva Gonçalves, Luan Vitor Carvalho Valadares e Lucas Gomes Rodrigues</p>
 
 # O jogo
-### Andando de um lado para o outro e pulando ao comando do jogador, nossos protagonistas deve alcançar o topo de Yggdrasil uma árvora lendária da mitologia nórdica enquanto desvia de obstáculos e lida com inimigos. Com controle simples e personagens carismáticos PLACEHOLDER_NOME te levará numa aventura de ALTO nível.
+### Andando de um lado para o outro e pulando ao comando do jogador, nossos protagonistas deve alcançar o topo de Yggdrasil, uma árvore lendária da mitologia nórdica, enquanto desvia de obstáculos e lida com inimigos. Com controle simples e personagens carismáticos PLACEHOLDER_NOME te levará numa aventura de ALTO nível.
 
 ## Platformer
 Da mesma forma que o mario nunca consegue voltar para onde veio, o seu caminho é apenas um e sem volta O TOPO. Até o topo haverá inúmeros desafios que testaram sua inteligencia, raciocinio rápido e tempo de reação para ter certeza que voce dign@ de alcançar o paraíso.
