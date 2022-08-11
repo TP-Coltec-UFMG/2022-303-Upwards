@@ -10,14 +10,22 @@ public class Player : MonoBehaviour
     public float jump_velocity;
     private bool jump_request;
     public BoxCollider2D player_col;
-    [SerializeField] private LayerMask platforms;
+    [SerializeField] private LayerMask platform;
+    [SerializeField] private LayerMask wall;
     private bool IsGrounded()
     {
-        return Physics2D.BoxCast(player_col.bounds.center, player_col.bounds.size, 0f, Vector2.down, 0.05f,platforms);
+        if((Physics2D.BoxCast(player_col.bounds.center, player_col.bounds.size, 0f, Vector2.down, 0.05f, platform)) && (player_rb.velocity.y == 0))
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
     }
     private bool IsSliding()
     {
-        if((Physics2D.BoxCast(player_col.bounds.center, player_col.bounds.size, 0f, Vector2.left, 0.05f, platforms)) || (Physics2D.BoxCast(player_col.bounds.center, player_col.bounds.size, 0f, Vector2.right, 0.05f, platforms)))
+        if((Physics2D.BoxCast(player_col.bounds.center, player_col.bounds.size, 0f, Vector2.left, 0.05f, wall)) || (Physics2D.BoxCast(player_col.bounds.center, player_col.bounds.size, 0f, Vector2.right, 0.05f, wall)))
         {
             return true;
         }
