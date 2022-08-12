@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour
 {
     public Rigidbody2D player_rb;
@@ -87,6 +87,13 @@ public class Player : MonoBehaviour
             {
                 player_rb.gravityScale = 1f;
             }
+        }
+    }
+    private void OnCollisionEnter2D(Collision2D colision)
+    {
+        if(colision.gameObject.tag == "Spike")
+        {
+            SceneManager.LoadSceneAsync(1);
         }
     }
     IEnumerator QueueJump()
