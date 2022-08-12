@@ -1,4 +1,4 @@
-# 2022-303-NomeADefinir
+# 2022-303-Upwards!
 
 ### Equipe:
 <p>Enzo Bigodeiro Bernardes, Jhulya Cristina Silva Gonçalves, Luan Vitor Carvalho Valadares e Lucas Gomes Rodrigues</p>
