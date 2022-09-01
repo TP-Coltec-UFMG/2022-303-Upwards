@@ -3,78 +3,48 @@
 ### Equipe:
 <p>Enzo Bigodeiro Bernardes, Jhulya Cristina Silva Gonçalves, Luan Vitor Carvalho Valadares e Lucas Gomes Rodrigues</p>
 
-# O jogo
-### Andando de um lado para o outro e pulando ao comando do jogador, nossos protagonistas deve alcançar o topo de Yggdrasil, uma árvore lendária da mitologia nórdica, enquanto desvia de obstáculos e lida com inimigos. Com controle simples e personagens carismáticos PLACEHOLDER_NOME te levará numa aventura de ALTO nível.
+### Imagem da Logo do Jogo
 
-## Platformer
-Da mesma forma que o mario nunca consegue voltar para onde veio, o seu caminho é apenas um e sem volta O TOPO. Até o topo haverá inúmeros desafios que testaram sua inteligencia, raciocinio rápido e tempo de reação para ter certeza que voce dign@ de alcançar o paraíso.
+## Sobre o Jogo
 
-## Protagonistas
-Para expressar sua personalidade e forma preferida de lidar com problemas, o jogo terá personagens com habilidades únicas que lhe abrirão novas portas mas, entretanto, fecharão outras.
-- Esquilo Escudeiro* com sua HABILIDADE_PLACEHOLDER
-- Macaco Monge* com sua HABILIDADE_PLACEHOLDER
-- Arara Arqueira* com sua HABILIDADE_PLACEHOLDER
-- Pinguim Espadachim* com sua HABILIDADE_PLACEHOLDER
-- Urso Pardo o Bardo* com sua HABILIDADE_PLACEHOLDER
+### "Upwards!" é um jogo de plataforma em que o jogador ajuda pequenos animais a alcanar o topo de uma árvore, com cada um deles possuindo a própria árvore e motivação para chegar ao topo! A principal questao desenvolvida no projeto é a sua acessibilidade para pessoas com daltonismo, implementada não como uma opção no menu de configurações, mas sim na própria paleta de cores do jogo inteiro, que utiliza cores baseadas na maneira como pessoas com esse tipo de deficiência enxergam o mundo. Além disso, o jogo conta com controles simples e um sistema de pontuação que incentiva a competitividade entre todos os tipos de pessoas.
 
-<p align="center"> *Provavelmente alguns personagens não estarão na versão final </p>
+## Personagens e Mundo
+Todos nós temos objetivos que desejamos conquistar na vida, por mais simples que sejam. Para representar isso, cada um dos nossos três protagonistas possui a própria árvore a ser escalada. Cada um deles possui uma história própria a ser contada: 
 
-# Protótipo
-### Como o jogo ainda está nos primeiros estágios de criação, ainda não se tem muita coisa certa nem uma arte definitiva. Temos apenas o conceito que é: o personagem vai de um lado para o outro automaticamente e o jogador pode escolher quando pular como mostrado abaixo:
+- O Esquilo Escudeiro é um esquilo vermelho que vive em um grande pinheiro com sua família, mas há um problema. O inverno está chegando, e agora, ele precisa se apressar e coletar o máximo posível de comida pela árvore para alimentar seus filhos antes que o outono acabe.
+- O Macaco Monge é um pequeno macaco-japonês que busca o esclarescimento divino. Ele treinou durante toda sua vida para esse momento, para finalmente conseguir escalar a cerejeira sagrada e alcançar o grande templo na copa da árvore. 
+- A Arara Arqueira é uma pequena filhote de arara-azul-grande que acabou caindo de seu ninho por acidente. Ela ainda não é capaz de voar perfeitamente, mas as suas flechas a ajudarão a retornar para sua família no topo do ipê-amarelo.
 
- # Menu Principal
-Na Tela Inical do Menu Principal temos 4 botões clicáveis
-- Jogar (Representado por um ícone de play) -> Inicia o jogo
-- Opções (Representado por um ícone de engrenagem) -> Abre o Menu de Opções (Próximo tópico)
-- Sair (Representado por um ícone de porta) -> Fecha o jogo
-- Idioma (Representado pela bandeira no canto da tela) -> Altera o idioma do jogo (Não implementado)
+### Sprites dos Personagens
+
+## Acessibilidade
+Um dos fundamentos do projeto é que ele seja divertido para todos, portanto também deve ser primeiramente acessível a todos. "Upwards!" contará com opções de configuração que permitem pessoas com quase qualquer tipo de deficiência, como por exemplo:
+
+### Acessiblidade para Deficiêntes Visuais
+- Filtros de Daltonismo
+	- "Upwards!" é um jogo pensado desde o início para possuir paletas de cores representando os três principais tipos de daltonismo: Protanopia, Deuteranopia e Tritanopia. Cada um desses tipos será implementado em uma das três fases do jogo, correspondentes a cada um dos três protagonistas escalando a própria árvore. Algumas concept art já estão sendo desenvolvidas, e logo abaixo temos um exemplo de como uma arte é vista por uma pessoa sem daltonismo e por pessoas com os três tipos de daltonismo aqui citados:
+
+### Sprites ds Tipos de Daltonismo
+
+- Alto Contraste
+	- De maneira semelhante aos filtros de daltonismo, o modo de alto contraste auxiliará os jogadores com baixa visão a identificar mais facilmente os principais elementos presentes na tela do jogo, os destacando com cores mais vivas e mais distintas entre si.
+
+## Primeiro Protótipo
+Ao desenvolver a primeira versão do jogo, nós não havíamos nem sequer definido um nome ainda. Porém durante essa etapa nós já possuíamos a versão inicial do menu, já pensada com as questões de acessibilidade e uma concept art da tela de fundo. E ao clicar em "jogar" no menu, o jogador é direcionado a uma tela de jogo com um cubo se movendo de um lado para o outro na tela, que podia também pular ao pressionar a barra de espaço. Esse foi o início da jogabilidade de "Upwards!".
 
 <p align="center"><img src="https://github.com/TP-Coltec-UFMG/2022-303-NomeADefinir/blob/main/Imagens/menu1.png?raw=true"</p>
 
-## Menu de Configurações
-- No Menu de Configurações temos as configurações dos Gráficos, dos Sons, da Jogabilidade e da Acessiblidade.
-- Alternando entre as opções, usando o teclado ou o mouse, podemos alterar as opções do submenu lateral.
-- Esse menu também será acessivel durante o jogo, através de um menu de pause.
+### Menu de Opções
+O menu de opções ou de configurações do nosso jogo conta com quatro abas principais: a aba de gráficos que ajusta a resolução da tela, a aba de sons que cuida do volume dos sons do jogo, a aba de jogabilidade responsavel pela definição dos controles e por fim a aba de acessiblidade que implementa as configurações relacionadas à acessibilidade como o filtro de daltonismo e o modo de alto contraste.
 	
 <p align="center"><img src="https://github.com/TP-Coltec-UFMG/2022-303-NomeADefinir/blob/main/Imagens/menu2.png?raw=true"></p>
 
-### Gráficos (Não implementado)
-- Aqui será possivel alterar a resolução da tela e outras opções relacionadas aos gráficos do jogo.
+## Versão Atual 
+A
 
-### Sons (Não implementado)
-- Aqui será possivel alterar o volume da música e dos efeitos sonoros do jogo.
-
-### Acessibilidade (Parcialmente implementado)
-- Aqui será possivel ativar e configurar as opções de acessibilidade explicadas no próximo tópico:
-
-<p align="center"><img src="https://github.com/TP-Coltec-UFMG/2022-303-NomeADefinir/blob/main/Imagens/menu3.png?raw=true"></p>
-
-# Acessibilidade
-Um dos pontos mais importante do projeto é que seja um jogo acessível e divertido para todos. Nosso jogo contará com opções para que pessoas com quase qualquer tipo de necessidade especial consiga jogar e se divertir. Essas opções serão:
-
-## Acessiblidade para jogadores com baixa visão
-- Alto contraste
-	- A opção de alto contraste ajudará essas pessoas deixando os elementos principais e essenciais do jogo mais visíveis e perceptíveis. O jogo possuirá um plano de fundo marrom que representa uma árvore, e tanto os personagens jogáveis quanto os inimigos e obstáculos possuirão cores vivas e distantas. 
-	
-- Tamanho de fonte ajustável
-  - Cada jogador poderá escolher o tamanho de fonte mais adequado para si, para que não perca nenhuma informação importante ou parte da história por não conseguir ler.
-
-- Áudio estéreo e em frequências distintas
-  - O áudio no nosso jogo não será essencial para a gameplay, porém será de grande ajuda caso alguem precise depender dele. O jogo terá um áudio stereo que corresponderá com a localização de elementos chaves no jogo como inimigos e "power-ups". Além disso teremos o cuidado de deixar a frequência dos diferentes áudios no jogo bastante separadas e distintas. Dessa forma, mesmo que haja muitos elementos na tela, o jogador ainda conseguirá distinguir cada um deles. 
-  
-## Acessibilidade para pessoas com Daltonismo (de todos os tipos)
-- Mudança na paleta de cor
-	- Para que todos consigam distinguir as cores do jogo, teremos opções para os três tipos de daltonismo mais comuns, que alterará a paleta de cor de cada cenário de acordo com a necessidade. Os três tipos serão Protanopia, Deuteranopia e Tritanopia. Usaremos como base o site [Colorblindor](https://www.color-blindness.com/coblis-color-blindness-simulator/) para termos certeza de que cada paleta esta de acordo com as necessidades.
-  
-## Acessibilidade para jogadores com problemas motores
-- Jogabilidade simples
-  - O nosso jogo contará com controles extremamente simples para que todos consigam jogar sem serem prejudicados por qualquer outro motivo. Existirá apenas uma possibilidade de input por parte do jogador: pular. Dessa forma apenas um único botão será usado e não exigirá grande coordenação motora.
-- Diversão
-  - Apesar de ter controles simples, o jogo será desafiador e divertido, exigindo rápida tomada de decisões. O jogo contará com um cronômetro para marcar o tempo de conclusão de cada fase (incentivando a competividade) e alguns elementos aleatórios para diversificar a gameplay.
-
-## Acessibilidade para deficientes auditivos
-- Descrição do áudio
-  - Para que pessoa com dificuldades de escutar possam estar a par de tudo que está acontecendo tanto quanto as outras, haverá uma opção de descrição de áudio, onde sons do ambiente relevantes seram descritos em texto.
-# Notas
-- Por mais que todas as opções de acessibilidade estão no menu, a maioria ainda não foi implementada pois não temos um protótipo do jogo pronto ainda.
-- Apesar de termos uma ideia sólida do que o jogo será, tudo ainda está sujeito à mudanças, logo tudo que está aqui pode (e provavelmente vai) mudar.
+## Referências
+- Artigo informativo sobre o que é o daltonismo e seus diferentes tipos:
+	- ???????????????????????????????????
+- Site com função de aplicar filtros de daltonismo em imagens:
+	- https://www.color-blindness.com/coblis-color-blindness-simulator/
