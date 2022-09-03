@@ -16,10 +16,9 @@ Todos nós temos objetivos que desejamos conquistar na vida, por mais simples qu
 - O Macaco Monge é um pequeno macaco-japonês que busca o esclarecimento divino. Ele treinou durante toda sua vida para esse momento, para finalmente conseguir escalar a cerejeira sagrada e alcançar o grande templo na copa da árvore. 
 - A Arara Arqueira é uma pequena filhote de arara-azul-grande que acabou caindo de seu ninho por acidente. Ela ainda não é capaz de voar perfeitamente, mas as suas flechas a ajudarão a retornar para sua família no topo do ipê-amarelo.
 
-<p ><img style="float:left;" src="https://github.com/TP-Coltec-UFMG/2022-303-Upwards/blob/main/Images/Monkey.png">
-<p ><img style="float:left;" src="https://github.com/TP-Coltec-UFMG/2022-303-Upwards/blob/main/Images/Squirrel.png">
-<p ><img style="float:left;" src="https://github.com/TP-Coltec-UFMG/2022-303-Upwards/blob/main/Images/Macaw.png">
-
+<p><img width="150px" src="https://github.com/TP-Coltec-UFMG/2022-303-Upwards/blob/main/Images/Monkey.png"></p>
+<p><img width="150px" src="https://github.com/TP-Coltec-UFMG/2022-303-Upwards/blob/main/Images/Squirrel.png"></p>
+<p><img width="150px" src="https://github.com/TP-Coltec-UFMG/2022-303-Upwards/blob/main/Images/Macaw.png"></p>
 	
 ## Acessibilidade
 Um dos fundamentos do projeto é que ele seja divertido para todos, portanto também deve ser primeiramente acessível a todos. "Upwards!" contará com opções de configuração que permitem pessoas com quase qualquer tipo de deficiência, como por exemplo:
@@ -28,7 +27,7 @@ Um dos fundamentos do projeto é que ele seja divertido para todos, portanto tam
 - Filtros de Daltonismo
 	- "Upwards!" é um jogo pensado desde o início para possuir paletas de cores representando os três principais tipos de daltonismo: Protanopia, Deuteranopia e Tritanopia. Cada um desses tipos será implementado em uma das três fases do jogo, correspondentes a cada um dos três protagonistas escalando a própria árvore. Algumas concept art já estão sendo desenvolvidas, e logo abaixo temos um exemplo de como uma arte é vista por uma pessoa sem daltonismo e por pessoas com os três tipos de daltonismo aqui citados:
 
-<p><img src="https://github.com/TP-Coltec-UFMG/2022-303-Upwards/blob/main/Images/Sprites.png"></p>
+<p align="center"><img src="https://github.com/TP-Coltec-UFMG/2022-303-NomeADefinir/blob/main/Imagens/Sprites.png"</p>
 
 - Alto Contraste
 	- De maneira semelhante aos filtros de daltonismo, o modo de alto contraste auxiliará os jogadores com baixa visão a identificar mais facilmente os principais elementos presentes na tela do jogo, os destacando com cores mais vivas e mais distintas entre si.
