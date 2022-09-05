@@ -16,9 +16,9 @@ Todos nós temos objetivos que desejamos conquistar na vida, por mais simples qu
 - O Macaco Monge é um pequeno macaco-japonês que busca o esclarecimento divino. Ele treinou durante toda sua vida para esse momento, para finalmente conseguir escalar a cerejeira sagrada e alcançar o grande templo na copa da árvore. 
 - A Arara Arqueira é uma pequena filhote de arara-azul-grande que acabou caindo de seu ninho por acidente. Ela ainda não é capaz de voar perfeitamente, mas as suas flechas a ajudarão a retornar para sua família no topo do ipê-amarelo.
 
-<p align="center"><img width="180px" src="https://github.com/TP-Coltec-UFMG/2022-303-NomeADefinir/blob/main/Imagens/Monkey.png"</p>\
-<p align="center"><img width="180px" src="https://github.com/TP-Coltec-UFMG/2022-303-NomeADefinir/blob/main/Imagens/Squirrel.png"</p>\
-<p align="center"><img width="180px" src="https://github.com/TP-Coltec-UFMG/2022-303-NomeADefinir/blob/main/Imagens/Macaw.png"</p>
+<p align="center"><img width="180px" src="https://github.com/TP-Coltec-UFMG/2022-303-NomeADefinir/blob/main/Imagens/Monkey.png"</p><br/>
+<p align="center"><img width="180px" src="https://github.com/TP-Coltec-UFMG/2022-303-NomeADefinir/blob/main/Imagens/Squirrel.png"</p><br/>
+<p align="center"><img width="180px" src="https://github.com/TP-Coltec-UFMG/2022-303-NomeADefinir/blob/main/Imagens/Macaw.png"</p><br/>
 	
 ## Acessibilidade
 Um dos fundamentos do projeto é que ele seja divertido para todos, portanto também deve ser primeiramente acessível a todos. "Upwards!" contará com opções de configuração que permitem pessoas com quase qualquer tipo de deficiência, como por exemplo:
