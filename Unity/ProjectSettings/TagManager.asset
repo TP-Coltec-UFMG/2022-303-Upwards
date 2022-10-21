@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - OneWay
+  - Kill
+  - Checkpoint
+  - Level End
   layers:
   - Default
   - TransparentFX

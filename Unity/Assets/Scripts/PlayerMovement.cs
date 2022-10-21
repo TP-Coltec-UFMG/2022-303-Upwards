@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
+    public float x, y;
     [SerializeField] private LayerMask platform, one_way;
     [SerializeField] private float jump_power, movement_speed, slide_speed;
     private BoxCollider2D player_col;
@@ -89,6 +90,22 @@ public class PlayerMovement : MonoBehaviour
             }
         }
         player_rb.velocity = new Vector2(movement_speed * movement_direction, player_rb.velocity.y);
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.gameObject.tag == "Checkpoint")
+        {
+            x = collision.gameObject.transform.position.x;
+            y = collision.gameObject.transform.position.y;
+        }
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag == "Kill")
+        {
+            player_rb.velocity = new Vector2(0f, 0f);
+            transform.position = new Vector3(x, y, 0);
+        }
     }
     private string State()
     {

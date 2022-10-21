@@ -31,4 +31,11 @@ public class FlyingEnemyMovement : MonoBehaviour
         }
         enemy_rb.velocity = new Vector2(movement_speed * movement_direction, enemy_rb.velocity.y);
     }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag == "Kill")
+        {
+            movement_direction *= -1;
+        }
+    }
 }
